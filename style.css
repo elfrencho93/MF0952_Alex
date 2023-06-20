@@ -28,7 +28,7 @@ body {
 }
 
 .image {
-    background-image: url("./images/illustration.svg");
+    background-image: url("./imagenes/latifi.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -39,7 +39,7 @@ body {
     text-align: center;
     color: white;
     font-size: 18px;
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Normas style para la sección de formulario */
@@ -54,9 +54,10 @@ form {
 }
 
 .titulo {
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 form div input {
@@ -83,48 +84,12 @@ input:focus {
     border: 2px solid #0067b1;
 }
 
-/* Normas style para redes sociales */
-
 .btn {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 15px;
     
-}
-
-.btn-1, .btn-2 {
-    padding: 10px 5px;
-    width: 100%;
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 8px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.btn-1 {
-    background-color: #e52f20;
-}
-
-.btn-2 {
-    background-color: #4f70b5;
-}
-
-.or {
-    text-align: center;
-}
-
-.question {
-    font-size: 15px;
 }
 
 span {
@@ -135,32 +100,6 @@ span {
 
 span:hover {
     opacity: 0.8;
-}
-
-/* Normas style para los iconos */
-
-form div i {
-    position: absolute;
-    padding: 10px;
-}
-
-.success-icon, .failure-icon {
-    right: 0;
-    opacity: 0;
-}
-
-.failure-icon {
-    color: #ed1b24;
-}
-
-.success-icon {
-    color: #00b140;
-}
-
-.error {
-    font-size: 14.5px;
-    margin-top: 5px;
-    color: #ed1b24;
 }
 
 /* Normas style para el button */
